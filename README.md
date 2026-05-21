@@ -23,4 +23,4 @@ A custom classifier head was added to the pretrained MobileNetV2 architecture to
 The project compared the performance of:
 * Frozen pretrained features
 * Fully fine-tuned pretrained features
-It was found that fine-tuning generally improved classification performance by allowing the pretrained ImageNet representations to better adapt to handwritten character recognition.
+It was found that fine-tuning generally improved classification performance by allowing the pretrained ImageNet representations to better adapt to handwritten character recognition. The fine-tuned unfrozen features model achived a test accurary of **92.55%** compared to **88.98%** for the model with frozen features
